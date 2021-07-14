@@ -3,6 +3,7 @@ const express = require('express')
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
 const mongoose = require('mongoose')
+mongoose.set('useCreateIndex', true)
 const router = require('./router/index')
 
 const PORT = process.env.PORT || 5000
