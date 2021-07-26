@@ -14,5 +14,4 @@
 ### Client libraries
 - axios
 - mobx
-- mongoose(mongodb)
 - nodemailer
